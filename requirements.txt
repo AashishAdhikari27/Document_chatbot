@@ -1,0 +1,11 @@
+python-dotenv
+streamlit
+langchain-community
+langchain-text-splitters
+langchain-groq
+unstructured
+# faiss-gpu
+faiss-cpu
+transformers
+sentence-transformers
+nltk
