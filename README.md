@@ -86,9 +86,12 @@ streamlit run src/main.py
   -  .env: Stores environment variables.
 
 
-    ![demo Image1](images/demo1.png)
-    ![demo Image2](images/demo2.png)
-    ![demo Image3](images/demo3.png)
-    ![demo Image4](images/demo4.png)
+
+
+
+![demo Image1](images/demo1.png)
+![demo Image2](images/demo2.png)
+![demo Image3](images/demo3.png)
+![demo Image4](images/demo4.png)
 
     
