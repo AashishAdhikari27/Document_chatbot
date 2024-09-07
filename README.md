@@ -20,8 +20,69 @@ This project allows you to upload a PDF document and chat with it using a chatbo
 
 ### Clone the Repository
 
+
 ```bash
 git clone https://github.com/yourusername/chat-with-document.git
-cd chat-with-document
+cd chat-with-document 
+
+```
+
+
+
+### Creating a Virtual Environment
+
+
+```bash
+# Install virtualenv if you don't have it
+pip install virtualenv
+
+# Create a virtual environment named 'env'
+virtualenv env
+
+# Activate the virtual environment
+# On Windows:
+.\env\Scripts\activate
+# On macOS/Linux:
+source env/bin/activate
+
+
+```
+
+### Install Dependencies
+
+
+```bash
+pip install -r requirements.txt
+
+```
+
+
+
+### Set Up Environment Variables
+Create a .env file in the root directory of the project and add any necessary environment variables required for the project to run. An example might include:
+
+makefile
+
+```bash
+
+API_KEY=your-api-key-here
+
+```
+
+
+### Running the Application
+
+
+```bash
+
+streamlit run src/main.py
+```
+
+
+### Project Structure
+
+  -  src/: Contains the main application code.
+  -  requirements.txt: Lists all the dependencies for the project.
+  -  .env: Stores environment variables.
 
 
